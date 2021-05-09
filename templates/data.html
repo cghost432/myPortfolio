@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>database</title>
+</head>
+<body>
+{% for dat in datalist %}
+    <p>{{ dat.name }} | {{ dat.subject }} | {{ dat.message }}</p>
+{% endfor %}
+</body>
+</html>
